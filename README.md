@@ -17,7 +17,7 @@ Using Cloudflare DDNS for Synology DSM 7.x
 ## IP v4
 
 ```
-wget https://raw.githubusercontent.com/insistent-afk/cloudflare-ddns-for-synology/main/cloudflare-ddns-v4.sh -O /sbin/cloudflare-ddns-v4.sh
+wget https://raw.githubusercontent.com/yfiganioglu/cloudflare-ddns-for-synology/main/cloudflare-ddns-v4.sh -O /sbin/cloudflare-ddns-v4.sh
 ```
 
 2. Give others execute permission
@@ -41,7 +41,7 @@ EOF
 ## IP v6 (Optional)
 
 ```
-wget https://raw.githubusercontent.com/insistent-afk/cloudflare-ddns-for-synology/main/cloudflare-ddns-v6.sh -O /sbin/cloudflare-ddns-v6.sh
+wget https://raw.githubusercontent.com/yfiganioglu/cloudflare-ddns-for-synology/main/cloudflare-ddns-v6.sh -O /sbin/cloudflare-ddns-v6.sh
 ```
 
 2. Give others execute permission
@@ -77,4 +77,6 @@ EOF
    - Username/Email: `<Zone ID>`
    - Password Key: `<API Token>`
 
-Thank you original from [joshuaavalon/SynologyCloudflareDDNS](https://github.com/joshuaavalon/SynologyCloudflareDDNS/)
+## Credits
+- Thank you original from [joshuaavalon/SynologyCloudflareDDNS](https://github.com/joshuaavalon/SynologyCloudflareDDNS/)
+- Thank you update from [insistent-afk/SynologyCloudflareDDNS](https://github.com/insistent-afk/cloudflare-ddns-for-synology/)
